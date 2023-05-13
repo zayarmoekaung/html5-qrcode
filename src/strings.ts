@@ -55,31 +55,31 @@ export class Html5QrcodeStrings {
 export class Html5QrcodeScannerStrings {
 
     public static scanningStatus(): string {
-        return "Scanning";
+        return "走査";
     }
 
     public static idleStatus(): string {
-        return "Idle";
+        return "アイドル";
     }
 
     public static errorStatus(): string {
-        return "Error";
+        return "エラー";
     }
 
     public static permissionStatus(): string {
-        return "Permission";
+        return "許可";
     }
 
     public static noCameraFoundErrorStatus(): string {
-        return "No Cameras";
+        return "カメラなし";
     }
 
     public static lastMatch(decodedText: string): string {
-        return `Last Match: ${decodedText}`;
+        return `最後の試合: ${decodedText}`;
     }
 
     public static codeScannerTitle(): string {
-        return "Code Scanner";
+        return "コードスキャナー";
     }
 
     public static cameraPermissionTitle(): string {
@@ -87,15 +87,15 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static cameraPermissionRequesting(): string {
-        return "Requesting camera permissions...";
+        return "カメラの許可をリクエストする...";
     }
 
     public static noCameraFound(): string {
-        return "No camera found";
+        return "カメラが見つかりません";
     }
 
     public static scanButtonStopScanningText(): string {
-        return "Stop Scanning";
+        return "スキャンを停止する";
     }
 
     public static scanButtonStartScanningText(): string {
@@ -119,7 +119,7 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static scanButtonScanningStarting(): string {
-        return "Launching Camera...";
+        return "カメラの起動...";
     }
 
     /**
@@ -137,7 +137,7 @@ export class Html5QrcodeScannerStrings {
      * This will be used to switch to camera based scanning.
      */
     public static textIfFileScanSelected(): string {
-        return "Scan using camera directly";
+        return "カメラを使用して直接スキャンする";
     }
 
     public static selectCamera(): string {
@@ -145,15 +145,15 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static fileSelectionChooseImage(): string {
-        return "Choose Image";
+        return "画像の選択";
     }
 
     public static fileSelectionChooseAnother(): string {
-        return "Choose Another";
+        return "ほかを選ぶ";
     }
 
     public static fileSelectionNoImageSelected(): string {
-        return "No image choosen";
+        return "画像が選択されていません";
     }
 
     /** Prefix to be given to anonymous cameras. */
@@ -162,11 +162,11 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static dragAndDropMessage(): string {
-        return "Or drop an image to scan";
+        return "または画像をドロップしてスキャンします";
     }
 
     public static dragAndDropMessageOnlyImages(): string {
-        return "Or drop an image to scan (other files not supported)";
+        return "または、スキャンする画像をドロップします (他のファイルはサポートされていません)";
     }
 
     /** Value for zoom. */
@@ -175,7 +175,7 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static loadingImage(): string {
-        return "Loading image...";
+        return "画像の読み込み中...";
     }
 
     public static cameraScanAltText(): string {

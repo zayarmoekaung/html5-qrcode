@@ -53,7 +53,11 @@ export class CameraSelectionUi {
         }
 
         let anonymousCameraId = 1;
-
+        let i = 0;
+        let c = 1;
+        if (this.cameras.length>3) {
+          c = 2;  
+        }
         for (const camera of this.cameras) {
             const value = camera.id;
             let name = camera.label == null ? value : camera.label;
@@ -67,10 +71,14 @@ export class CameraSelectionUi {
             }
 
             const option = document.createElement("option");
+            if (i == c) {
+                option.selected = true;
+            }
             option.value = value;
             option.innerText = name;
             this.options.push(option);
             this.selectElement.appendChild(option);
+            i++;
         }
         cameraSelectionContainer.appendChild(this.selectElement);
         parentElement.appendChild(cameraSelectionContainer);
