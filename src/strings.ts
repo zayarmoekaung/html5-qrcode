@@ -83,7 +83,7 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static cameraPermissionTitle(): string {
-        return "Request Camera Permissions";
+        return "カメラ利用を許可";
     }
 
     public static cameraPermissionRequesting(): string {
@@ -99,7 +99,7 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static scanButtonStartScanningText(): string {
-        return "Start Scanning";
+        return "スキャン開始";
     }
 
     public static torchOnButton(): string {
@@ -128,7 +128,7 @@ export class Html5QrcodeScannerStrings {
      * This will be used to switch to file based scanning.
      */
     public static textIfCameraScanSelected(): string {
-        return "Scan an Image File";
+        return "画像ファイルからスキャン";
     }
 
     /**
@@ -141,7 +141,7 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static selectCamera(): string {
-        return "Select Camera";
+        return "カメラを選択";
     }
 
     public static fileSelectionChooseImage(): string {
