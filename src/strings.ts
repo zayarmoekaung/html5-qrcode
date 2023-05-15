@@ -95,7 +95,7 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static scanButtonStopScanningText(): string {
-        return "スキャンを停止する";
+        return "カメラ選択に戻る";
     }
 
     public static scanButtonStartScanningText(): string {
@@ -141,7 +141,7 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static selectCamera(): string {
-        return "カメラを選択";
+        return "選択されたカメラ";
     }
 
     public static fileSelectionChooseImage(): string {
